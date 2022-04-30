@@ -1,0 +1,122 @@
+.droplet li{
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  
+}
+.droplet li::before{
+  content: '';
+  position: absolute;
+  list-style: none;
+  bottom: 27px;
+  right: 6px;
+  background: rgb(196, 196, 196);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.droplet li::after{
+  content: '';
+  position: absolute;
+  bottom: 15px;
+  right: 6px;
+  background: rgb(196, 196, 196);
+  width: 7px;
+  height: 7px;
+  border-radius: 81% 19% 81% 19% / 81% 17% 83% 19%;
+  transform: rotate(-20deg);
+  overflow: hidden;
+}
+
+.droplet li:nth-child(1){
+  background-color: transparent;
+  margin-left:70%;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 75px;
+  -webkit-border-bottom-right-radius: 75px;
+  -webkit-border-bottom-left-radius: 75px;
+  -webkit-transform:rotate(45deg);
+  box-shadow: 5px 5px 10px #8e8e8e,
+              inset 5px 5px 10px rgb(82, 82, 82);
+   
+  animation: animate 15s linear infinite;
+  animation-delay: 3s;
+}
+
+
+.droplet li:nth-child(2){
+  background-color: transparent;
+  margin-left:10%;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 75px;
+  -webkit-border-bottom-right-radius: 75px;
+  -webkit-border-bottom-left-radius: 75px;
+  -webkit-transform:rotate(45deg);
+  box-shadow: 5px 5px 10px #8e8e8e,
+              inset 5px 5px 10px rgb(82, 82, 82);
+   
+  animation: animate 15s linear infinite;
+  animation-delay: 2s;
+}
+
+
+.droplet li:nth-child(3){
+  background-color: transparent;
+  margin-left:90%;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 75px;
+  -webkit-border-bottom-right-radius: 75px;
+  -webkit-border-bottom-left-radius: 75px;
+  -webkit-transform:rotate(45deg);
+  box-shadow: 5px 5px 10px #8e8e8e,
+              inset 5px 5px 10px rgb(82, 82, 82);
+ 
+  animation: animate 15s linear infinite;
+}
+
+
+.droplet li:nth-child(4){
+  background-color: transparent;
+  margin-left:50%;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 75px;
+  -webkit-border-bottom-right-radius: 75px;
+  -webkit-border-bottom-left-radius: 75px;
+  -webkit-transform:rotate(45deg);
+  box-shadow: 5px 5px 10px #8e8e8e,
+              inset 5px 5px 10px rgb(82, 82, 82);
+   
+   
+  animation: animate 15s linear infinite;
+}
+
+
+.droplet li:nth-child(4){
+  background-color: transparent;
+  margin-left:0.5%;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 75px;
+  -webkit-border-bottom-right-radius: 75px;
+  -webkit-border-bottom-left-radius: 75px;
+  -webkit-transform:rotate(45deg);
+  box-shadow: 5px 5px 10px #8e8e8e,
+              inset 5px 5px 10px rgb(82, 82, 82);
+   
+   
+  animation: animate 15s linear infinite;
+  animation-delay: 12s;
+}
+
+ 
+
+@keyframes animate{
+  0%{
+    transform: translateY(-600px) rotate(45deg);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(500px) rotate(45deg);
+    opacity: 1;
+  }
+}
