@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Counter-App-Class-based-/static/css/main.d2193b48.css",
+    "main.js": "/Counter-App-Class-based-/static/js/main.8e801e6d.js",
+    "static/media/pexels-karolina-grabowska-4862865.jpg": "/Counter-App-Class-based-/static/media/pexels-karolina-grabowska-4862865.03768c68d5c5fc1c351e.jpg",
+    "static/media/pexels-matej-1158394.jpg": "/Counter-App-Class-based-/static/media/pexels-matej-1158394.11b93fa6c40b6039a494.jpg",
+    "index.html": "/Counter-App-Class-based-/index.html",
+    "main.d2193b48.css.map": "/Counter-App-Class-based-/static/css/main.d2193b48.css.map",
+    "main.8e801e6d.js.map": "/Counter-App-Class-based-/static/js/main.8e801e6d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2193b48.css",
+    "static/js/main.8e801e6d.js"
+  ]
+}
